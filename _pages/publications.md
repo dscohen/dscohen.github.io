@@ -11,6 +11,9 @@ author_profile: true
 
 {% include base_path %}
 
+*A Modern Perspective on Query Likelihood with Deep Generative Retrieval Models* Oleg Lesota, Navid Rekabsaz, **Daniel Cohen**, Klaus Antonius Grasserbauer, Carsten Eickhoff, Markus Schedl, ICTIR 2021 [pdf](https://arxiv.org/abs/2106.13618)
+*Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models* **Daniel Cohen**, Bhaskar Mitra, Navid Rekabsaz, Carsten Eickhoff, SIGIR 2021 [pdf](https://arxiv.org/abs/2105.04651l)
+*Allowing for the Grounded Use of Temporal Difference Learning in Large Ranking Models via Substate Updates* **Daniel Cohen**, SIGIR 2021 [pdf](http://brown.edu/Research/AI/files/pubs/sigir21c.pdf)
 *Evaluating the Performance of Reinforcement Learning Algorithms* Scott M. Jordan, Yash Chandak, **Daniel Cohen**, Mengxue Zhang, Philip S. Thomas, ICML 2020 [pdf](http://proceedings.mlr.press/v119/jordan20a.html)
 
 *Learning a Better Negative Sampling Policy with Deep Neural Networks for Search* **Daniel Cohen**, Scott M. Jordan W. Bruce Croft, ICTIR 2019 [pdf](https://ciir-publications.cs.umass.edu/pub/web/getpdf.php?id=1337), 
