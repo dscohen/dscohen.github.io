@@ -13,7 +13,7 @@ author_profile: true
 
 *A Modern Perspective on Query Likelihood with Deep Generative Retrieval Models* Oleg Lesota, Navid Rekabsaz, **Daniel Cohen**, Klaus Antonius Grasserbauer, Carsten Eickhoff, Markus Schedl, ICTIR 2021 [pdf](https://arxiv.org/abs/2106.13618)
 
-*Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models* **Daniel Cohen**, Bhaskar Mitra, Navid Rekabsaz, Carsten Eickhoff, SIGIR 2021 [pdf](https://arxiv.org/abs/2105.04651l)
+*Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models* **Daniel Cohen**, Bhaskar Mitra, Navid Rekabsaz, Carsten Eickhoff, SIGIR 2021 [pdf](https://arxiv.org/abs/2105.04651)
 
 *Allowing for the Grounded Use of Temporal Difference Learning in Large Ranking Models via Substate Updates* **Daniel Cohen**, SIGIR 2021 [pdf](http://brown.edu/Research/AI/files/pubs/sigir21c.pdf)
 
