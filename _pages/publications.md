@@ -11,6 +11,17 @@ author_profile: true
 
 {% include base_path %}
 
+*Mitigating Bias in Search Results through Set-Based Document Reranking and Neutrality Regularization*
+George Zerveas, Navid Rekabsaz, **Daniel Cohen**, Carsten Eickhoff, SIGIR 2022 [pdf](ToBeAdded)
+
+*Inconsistent Ranking Assumptions in Medical Search and their Downstream Consequences*
+**Daniel Cohen**, Kevin Du, Bhaskar Mitra, Laura Mercurio, Navid Rekabsaz, Carsten Eickhoff, SIGIR 2022 [pdf](ToBeAdded)
+
+
+*An Efficient Framework for Improving Retrieval through Contextualized Document Embedding Reranking*
+George Zerveas, Navid Rekabsaz, **Daniel Cohen**, Carsten Eickhoff, ArXiv 2022 [pdf](https://arxiv.org/abs/2112.08766)
+
+
 *A Modern Perspective on Query Likelihood with Deep Generative Retrieval Models* Oleg Lesota, Navid Rekabsaz, **Daniel Cohen**, Klaus Antonius Grasserbauer, Carsten Eickhoff, Markus Schedl, ICTIR 2021 [pdf](https://arxiv.org/abs/2106.13618)
 
 *Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models* **Daniel Cohen**, Bhaskar Mitra, Navid Rekabsaz, Carsten Eickhoff, SIGIR 2021 [pdf](https://arxiv.org/abs/2105.04651)
