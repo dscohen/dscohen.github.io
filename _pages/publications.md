@@ -11,17 +11,17 @@ author_profile: true
 
 {% include base_path %}
 
-*CODER: An efficient framework for improving retrieval through COntextualized Document Embedding Reranking* George Zerveas, Navid Rekabsaz, **Daniel Cohen**, Carsten Eickhoff, EMNLP 2022  [pdf](http://brown.edu/Research/AI/files/pubs/emnlp22.pdf)
+*CODER: An efficient framework for improving retrieval through COntextualized Document Embedding Reranking* George Zerveas, Navid Rekabsaz, **Daniel Cohen**, Carsten Eickhoff, EMNLP 2022  [pdf](https://health-nlp.com/files/pubs/emnlp22.pdf)
 
-*Mitigating Bias in Search Results through Set-based Document Reranking and Neutrality Regularization* George Zerveas, Navid Rekabsaz, **Daniel Cohen**, Carsten Eickhoff, SIGIR 2022 [pdf](http://brown.edu/Research/AI/files/pubs/sigir22a.pdf)
+*Mitigating Bias in Search Results through Set-based Document Reranking and Neutrality Regularization* George Zerveas, Navid Rekabsaz, **Daniel Cohen**, Carsten Eickhoff, SIGIR 2022 [pdf](https://health-nlp.com/files/pubs/sigir22a.pdf)
 
-*Inconsistent Ranking Assumptions in Medical Search and Their Downstream Consequences* **Daniel Cohen**, Kevin Du, Bhaskar Mitra, Laura Mercurio, Navid Rekabsaz, Carsten Eickhoff, SIGIR 2022 [pdf](http://brown.edu/Research/AI/files/pubs/sigir22b.pdf)
+*Inconsistent Ranking Assumptions in Medical Search and Their Downstream Consequences* **Daniel Cohen**, Kevin Du, Bhaskar Mitra, Laura Mercurio, Navid Rekabsaz, Carsten Eickhoff, SIGIR 2022 [pdf](https://health-nlp.com/files/pubs/sigir22b.pdf)
 
-*A Modern Perspective on Query Likelihood with Deep Generative Retrieval Models* Oleg Lesota, Navid Rekabsaz, **Daniel Cohen**, Klaus Antonius Grasserbauer, Carsten Eickhoff, Markus Schedl, ICTIR 2021 [pdf](http://brown.edu/Research/AI/files/pubs/ictir21.pdf)
+*A Modern Perspective on Query Likelihood with Deep Generative Retrieval Models* Oleg Lesota, Navid Rekabsaz, **Daniel Cohen**, Klaus Antonius Grasserbauer, Carsten Eickhoff, Markus Schedl, ICTIR 2021 [pdf](https://health-nlp.com/files/pubs/ictir21.pdf)
 
 *Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models* **Daniel Cohen**, Bhaskar Mitra, Navid Rekabsaz, Carsten Eickhoff, SIGIR 2021 [pdf](https://arxiv.org/abs/2105.04651)
 
-*Allowing for the Grounded Use of Temporal Difference Learning in Large Ranking Models via Substate Updates* **Daniel Cohen**, SIGIR 2021 [pdf](http://brown.edu/Research/AI/files/pubs/sigir21c.pdf)
+*Allowing for the Grounded Use of Temporal Difference Learning in Large Ranking Models via Substate Updates* **Daniel Cohen**, SIGIR 2021 [pdf](https://health-nlp.com/files/pubs/sigir21c.pdf)
 
 *Evaluating the Performance of Reinforcement Learning Algorithms* Scott M. Jordan, Yash Chandak, **Daniel Cohen**, Mengxue Zhang, Philip S. Thomas, ICML 2020 [pdf](http://proceedings.mlr.press/v119/jordan20a.html)
 
