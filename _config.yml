@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Daniel Cohen"
 title_separator          : "-"
 name                     : &name "Daniel Cohen"
-description              : &description "Postdoctoral Researcher in the AI Lab at Brown University"
+description              : &description "Research Scientist at Dataminr working on LLMs, agentic AI, NLP, and information retrieval."
 url                      : https://dscohen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dscohen/dscohen.github.io"
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Daniel Cohen"
-  avatar           : "profile.png"
-  bio              : 
-  location         : 
-  employer         :
-  pubmed           : 
+  avatar           : "profile.jpg"
+  bio              : "Research Scientist at Dataminr. Ph.D., UMass Amherst. I build production LLM &amp; agentic AI systems."
+  location         :
+  employer         : "Dataminr"
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=BGSFslUAAAAJ&hl=en"
-  email            :
+  email            : "dcohenCS@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "dcohenIR"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -123,6 +123,7 @@ include:
   - _pages
   - files
 exclude:
+  - plan.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

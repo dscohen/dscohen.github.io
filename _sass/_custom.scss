@@ -1,0 +1,187 @@
+/* ==========================================================================
+   Custom redesign overrides for dscohen.github.io
+   Loaded last in main.scss so these rules take precedence.
+   ========================================================================== */
+
+$accent: #1f7a8c;
+$ink:    #2b3a55;
+
+/* ---------- Base typography polish ---------- */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2f3640;
+}
+
+.page__content {
+  font-size: 1rem;
+  line-height: 1.7;
+
+  p { margin: 0 0 1.1em; }
+
+  a {
+    color: $accent;
+    text-decoration: none;
+    border-bottom: 1px solid rgba($accent, 0.35);
+    transition: color 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      color: mix(#000, $accent, 20%);
+      border-bottom-color: $accent;
+    }
+  }
+}
+
+h1, h2, h3, h4 {
+  color: $ink;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.page__title { font-weight: 800; }
+
+/* Section rules on archive-style pages (CV, Publications) */
+.page__content h1,
+.page__content h2 {
+  margin-top: 1.8em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid rgba($ink, 0.12);
+}
+
+/* ---------- Masthead / nav ---------- */
+.masthead {
+  border-bottom: 1px solid rgba($ink, 0.10);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
+.greedy-nav {
+  background: #fff;
+
+  a {
+    font-weight: 600;
+    color: $ink;
+    &:hover { color: $accent; }
+  }
+
+  .visible-links a:before { background: $accent; }
+}
+
+.site-title { font-weight: 800; letter-spacing: -0.02em; }
+
+/* ---------- Author sidebar ---------- */
+.author__avatar img {
+  border-radius: 50%;
+  max-width: 180px;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 18px rgba($ink, 0.18);
+}
+
+.author__name {
+  font-size: 1.3em;
+  font-weight: 800;
+  color: $ink;
+  margin-top: 0.6em;
+}
+
+.author__bio {
+  color: #5b6573;
+  line-height: 1.5;
+  font-size: 0.92em;
+}
+
+.author__urls-wrapper {
+  font-size: 0.95em;
+
+  .author__urls {
+    li { padding: 0.18em 0; }
+
+    a {
+      color: #5b6573;
+      &:hover { color: $accent; }
+    }
+
+    .fa, .fab, .fas, .ai {
+      color: $accent;
+      margin-right: 4px;
+    }
+  }
+}
+
+/* Hide the mobile "follow" toggle now that the button is gone */
+.author__urls-wrapper > button { display: none; }
+
+/* ---------- Homepage lead paragraph ---------- */
+.page__lead {
+  font-size: 1.18em;
+  line-height: 1.6;
+  color: $ink;
+  font-weight: 500;
+  margin-bottom: 1.2em;
+}
+
+/* ---------- Publications list ---------- */
+.pub-list {
+  p {
+    position: relative;
+    margin: 0 0 0.5em;
+    padding: 0.85em 1em 0.85em 1.1em;
+    background: #fbfcfd;
+    border: 1px solid rgba($ink, 0.08);
+    border-left: 3px solid $accent;
+    border-radius: 4px;
+    line-height: 1.55;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+
+    &:hover {
+      box-shadow: 0 4px 14px rgba($ink, 0.10);
+      transform: translateY(-1px);
+    }
+
+    /* paper title (first <em>/<i> in each entry) */
+    em, i { font-style: normal; font-weight: 700; color: $ink; }
+
+    strong { color: $accent; } /* e.g. "Best Paper" tags */
+
+    a {
+      font-size: 0.9em;
+      border-bottom: none;
+      &:after { content: ""; }
+    }
+  }
+}
+
+.pub-year {
+  margin-top: 1.6em !important;
+  font-size: 1.05em;
+  color: $accent;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 2px solid rgba($accent, 0.25) !important;
+}
+
+/* ---------- Buttons (e.g. Download CV) ---------- */
+.btn--cv {
+  display: inline-block;
+  background: $accent;
+  color: #fff !important;
+  padding: 0.55em 1.1em;
+  border-radius: 5px;
+  font-weight: 600;
+  border-bottom: none !important;
+  box-shadow: 0 2px 8px rgba($accent, 0.35);
+  transition: background 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    background: mix(#000, $accent, 15%);
+    transform: translateY(-1px);
+    color: #fff !important;
+  }
+}
+
+/* ---------- CV page rhythm ---------- */
+.cv-meta {
+  color: #5b6573;
+  font-size: 0.95em;
+}
+
+.page__content ul { line-height: 1.6; }
